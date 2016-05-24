@@ -4,8 +4,6 @@ Public IP Address : 52.40.80.9
 
 Port : 2200
 
-Passphrase: appuser
-
 URL : 
 - http://ec2-52-40-80-9.us-west-2.compute.amazonaws.com/
 - http://52.40.80.9
