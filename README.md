@@ -10,32 +10,32 @@ URL :
 
 Installed Packages
 
-1) finger:	Displays an easy to read information about a user
-2) apache2:	HTTP Server
-3) libapache2-mod-wsgi:	hosts Python applications on Apache2 server
-4) ntp: Synchronizes time over a network
-5) postgresql: Postgresql Database server
-6) python-setuptools: An easy-install package to facilitate installing Python packages
-7) sqlalchemy: ORM and SQL tools for Python
-8) flask: Microframework for web applications
-9) python-psycopg2:	PostgreSQL adapter for Python
-10) oauth2: Authorization framework for third-party login (Google and Facebook)
-11) google-api-python-client: Google API for OAuth login
-12) fail2ban: Protection against suspicious site activity by IP banning
+1) finger:	Displays an easy to read information about a user   
+2) apache2:	HTTP Server   
+3) libapache2-mod-wsgi:	hosts Python applications on Apache2 server   
+4) ntp: Synchronizes time over a network   
+5) postgresql: Postgresql Database server   
+6) python-setuptools: An easy-install package to facilitate installing Python packages   
+7) sqlalchemy: ORM and SQL tools for Python   
+8) flask: Microframework for web applications   
+9) python-psycopg2:	PostgreSQL adapter for Python   
+10) oauth2: Authorization framework for third-party login   
+11) google-api-python-client: Google API for OAuth login   
+12) fail2ban: Protection against suspicious site activity by IP banning   
 
 Configuration Summary
 
-1) Created a new user named grader
-2) Updated and Upgraded currently installed packages
-3) Changed the ssh port from 22 to 2200
-4) Gave the grader perminsiion to sudo
-5) Configured the Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
-6) Configured the local timezone to UTC
-7) Installed and configure Apache to serve a Python mod_wsgi application.
-8) Set up Environment for delopying Flask Application.
-9) Installed and configured PostgreSQL with default settings to not allow remote connection.
-10) Created a new user catalog, added user to PostgreSQL databse with limited permissions to catalog application database.
-11) Installed and Configured Fail2ban intrusion protection that bans suspicious IPs.
+1) Created a new user named grader   
+2) Updated and Upgraded currently installed packages   
+3) Changed the ssh port from 22 to 2200   
+4) Gave the grader perminsiion to sudo   
+5) Configured the Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)   
+6) Configured the local timezone to UTC   
+7) Installed and configure Apache to serve a Python mod_wsgi application.   
+8) Set up Environment for delopying Flask Application.   
+9) Installed and configured PostgreSQL with default settings to not allow remote connection.  
+10) Created a new user catalog, added user to PostgreSQL databse with limited permissions to catalog application database.   
+11) Installed and Configured Fail2ban intrusion protection that bans suspicious IPs.   
 
 Resources
 - https://www.digitalocean.com
