@@ -15,13 +15,14 @@ Installed Packages
 3) libapache2-mod-wsgi:	hosts Python applications on Apache2 server   
 4) ntp: Synchronizes time over a network   
 5) postgresql: Postgresql Database server   
-6) python-setuptools: An easy-install package to facilitate installing Python packages   
-7) sqlalchemy: ORM and SQL tools for Python   
-8) flask: Microframework for web applications   
-9) python-psycopg2:	PostgreSQL adapter for Python   
-10) oauth2: Authorization framework for third-party login   
-11) google-api-python-client: Google API for OAuth login   
-12) fail2ban: Protection against suspicious site activity by IP banning   
+6) git : Version control system tools   
+7) python-setuptools: An easy-install package to facilitate installing Python packages   
+8) sqlalchemy: ORM and SQL tools for Python   
+9) flask: Microframework for web applications   
+10) python-psycopg2:	PostgreSQL adapter for Python   
+11) oauth2: Authorization framework for third-party login   
+12) google-api-python-client: Google API for OAuth login   
+13) fail2ban: Protection against suspicious site activity by IP banning   
 
 Configuration Summary
 
@@ -31,11 +32,12 @@ Configuration Summary
 4) Gave the grader perminsiion to sudo   
 5) Configured the Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)   
 6) Configured the local timezone to UTC   
-7) Installed and configure Apache to serve a Python mod_wsgi application.   
-8) Set up Environment for delopying Flask Application.   
-9) Installed and configured PostgreSQL with default settings to not allow remote connection.  
-10) Created a new user catalog, added user to PostgreSQL databse with limited permissions to catalog application database.   
-11) Installed and Configured Fail2ban intrusion protection that bans suspicious IPs.   
+7) Installed and configure Apache to serve a Python mod_wsgi application.  
+8) Installed Git   
+9) Set up Environment for delopying Flask Application.   
+10) Installed and configured PostgreSQL with default settings to not allow remote connection.  
+11) Created a new user catalog, added user to PostgreSQL databse with limited permissions to catalog application database.   
+12) Installed and Configured Fail2ban intrusion protection that bans suspicious IPs.   
 
 Resources
 - https://www.digitalocean.com
