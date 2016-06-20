@@ -6,7 +6,9 @@ Port : 2200
 
 URL : 
 - http://ec2-52-40-80-9.us-west-2.compute.amazonaws.com/
-- http://52.40.80.9
+- http://52.40.80.9    
+
+Note: This URL may not work after graduating from the nanodegree.   
 
 Installed Packages
 
